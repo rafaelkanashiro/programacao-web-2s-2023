@@ -1,0 +1,19 @@
+<!-- views/calculadora/formulario -->
+
+<form action="/calcular" method="post">
+  <label for="numA">Número A:</label>
+  <input type="text" id="numA" name="numA" required>
+
+  <label for="numB">Número B:</label>
+  <input type="text" id="numB" name="numB" required>
+
+  <label for="operacao">Operação:</label>
+  <select id="operacao" name="operacao" required>
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+  </select>
+
+  <button type="submit" class="btn btn-primary">Calcular</button>
+</form>
